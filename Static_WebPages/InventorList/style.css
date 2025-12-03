@@ -71,3 +71,16 @@ select {
   font-size: 1.1em;
   line-height: 1.55em;
 }
+/*Task 2:  Glow effect ONLY for James */
+@keyframes glowPulse {
+  0% { box-shadow: 0 0 5px rgba(0,140,255,0.3); }
+  50% { box-shadow: 0 0 25px rgba(0,140,255,1); }
+  100% { box-shadow: 0 0 5px rgba(0,140,255,0.3); }
+}
+
+.glow-frame {
+  animation: glowPulse 1.8s infinite ease-in-out;
+}
+
+
+
