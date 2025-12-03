@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Programming Language Inventors</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div id="container">
+
+    <h1>Programming Language Inventors</h1>
+
+    <div class="select-area">
+      <label for="inventorSelect">Select a Programming Language Inventor:</label>
+
+      <select id="inventorSelect" onchange="showInventor()">
+        <option value="">-- Choose an Inventor --</option>
+        <option value="james">James Gosling — Java</option>
+        <option value="guido">Guido van Rossum — Python</option>
+        <option value="dennis">Dennis Ritchie — C</option>
+        <option value="bjarne">Bjarne Stroustrup — C++</option>
+        <option value="brendan">Brendan Eich — JavaScript</option>
+        <option value="rasmus">Rasmus Lerdorf — PHP</option>
+        <option value="yukihiro">Yukihiro Matsumoto — Ruby</option>
+        <option value="anders">Anders Hejlsberg — C#</option>
+        <option value="grace">Grace Hopper — COBOL</option>
+        <option value="john">John McCarthy — Lisp</option>
+      </select>
+    </div>
+
+    <!-- Display section -->
+    <div class="inventor-area">
+
+      <!-- Frame that changes between circle and square -->
+      <div class="image-circle" id="frame">
+        <img id="photo" src="" alt="">
+      </div>
+
+      <!-- Text box -->
+      <div class="text-box">
+        <p id="description">Select an inventor to display information.</p>
+      </div>
+
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
