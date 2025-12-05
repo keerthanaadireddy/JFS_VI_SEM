@@ -43,3 +43,19 @@ button {
 button:hover {
     background: #45a049;
 }
+
+label {
+    display: block;
+    margin-top: 5px;
+}
+
+#resultMessage {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #333;
+    display: none;
+    white-space: pre-wrap;
+    text-align: left;
+    max-width: 450px;
+    margin: 20px auto;
+}
